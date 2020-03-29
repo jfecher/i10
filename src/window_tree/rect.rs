@@ -1,5 +1,6 @@
 use std::convert::Into;
 
+#[derive(PartialEq, Clone, Debug)]
 pub struct Rect<T> {
     pub x: T,
     pub y: T,
